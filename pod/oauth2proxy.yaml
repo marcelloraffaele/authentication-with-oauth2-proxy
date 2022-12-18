@@ -25,7 +25,7 @@ data:
     # using http://dex.localtest.me/.well-known/openid-configuration oauth2-proxy will populate
     # login_url, redeem_url, and oidc_jwks_url
     provider="oidc"
-    oidc_issuer_url="http://dex.localtest.me"
+    oidc_issuer_url="http://dex.local"
 ---
 apiVersion: apps/v1
 kind: Deployment
